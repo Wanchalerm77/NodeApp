@@ -27,7 +27,7 @@ app.use((req, res, next) => {
     next();
 });
 app.get("/", (request, response) => {
-    response.send("<h1>Hello fucker</h1>");
+    response.render("dd.hbs");
 });
 
 
